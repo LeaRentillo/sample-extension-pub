@@ -1,0 +1,17 @@
+{
+    "name": "learentillo/sample-extension",
+    "description": "A sample composer private package.",
+    "autoload": {
+        "psr-4": {
+            "learentillo\\SampleExtention\\": "src/"
+        }
+    },
+	"version": "2.0.1",
+    "prefer-stable": true,
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:LeaRentillo/sample-extension.git"
+		}
+	]
+}
