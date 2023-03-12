@@ -20,6 +20,8 @@ class SampleExtensionPub extends InputWidget
      * @inheritdoc
      */
     public $pluginName = 'SampleExtensionPub';
+    
+
 
     /**
      * @inheritdoc
@@ -42,4 +44,17 @@ class SampleExtensionPub extends InputWidget
         SampleExtentionPubAsset::registerBundle($view, $this->bsVersion);
         $this->registerPlugin($this->pluginName);
     }
+}
+
+
+
+use yii\web\AssetBundle;
+
+/**
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @since 2.0
+ */
+class AppAssetWhitelabel extends AssetBundle
+{
+    
 }

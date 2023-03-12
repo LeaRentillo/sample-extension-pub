@@ -1,6 +1,7 @@
 {
     "name": "iscalelea/sample-extension-pub",
     "description": "A sample composer public package.",
+    "type": "yii2-extension",
     "autoload": {
         "psr-4": {
             "iscalelea\\SampleExtentionPub\\": "src/"
