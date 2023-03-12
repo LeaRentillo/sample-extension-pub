@@ -12,12 +12,12 @@ namespace iscalelea\SampleExtensionPub;
 use yii\web\AssetBundle;
 
 /**
- * Asset bundle for SampleExtentionPubAsset Widget
+ * Asset bundle for SampleExtensionPubAsset Widget
  *
  * @author 
  * @since 1.0
  */
-class SampleExtentionPubAsset extends AssetBundle
+class SampleExtensionPubAsset extends AssetBundle
 {
     public $sourcePath = '@iscalelea/SampleExtensionPub/assets';
     public $css = [
