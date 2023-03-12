@@ -1,9 +1,9 @@
 {
-    "name": "learentillo/sample-extension-pub",
-    "description": "A sample composer private package.",
+    "name": "iscalelea/sample-extension-pub",
+    "description": "A sample composer public package.",
     "autoload": {
         "psr-4": {
-            "learentillo\\SampleExtentionPub\\": "src/"
+            "iscalelea\\SampleExtentionPub\\": "src/"
         }
     },
 	"minimum-stability": "dev",
