@@ -21,7 +21,7 @@ use yii\authclient\ClientInterface;
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
-class AuthChoice extends Widget
+class Extenstion extends Widget
 {
     /**
      * @var string name of the auth client collection application component.

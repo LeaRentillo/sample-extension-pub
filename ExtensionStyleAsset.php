@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class ExtensionStyleAsset extends AssetBundle
 {
-    public $sourcePath = '@iscalelea/sample-extension-pub/assets/css';
+    public $sourcePath = '@iscalelea/SampleExtensionPub/assets/css';
     public $css = [
         'sample.css',
     ];

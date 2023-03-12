@@ -12,19 +12,20 @@ use yii\web\AssetBundle;
 /**
  * AuthChoiceAsset is an asset bundle for [[AuthChoice]] widget.
  *
- * @see AuthChoiceStyleAsset
+ * @see ExtensionStyleAsset
  *
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 2.0
  */
 class ExtensionAsset extends AssetBundle
 {
-    public $sourcePath = '@iscalelea/sample-extension-pub/assets/js';
+      
+    public $sourcePath = '@iscalelea/SampleExtensionPub/assets/js';
     public $js = [
         'sample.js',
     ];
     public $depends = [
-        'iscalelea\sample-extension-pub\AuthChoiceStyleAsset',
+        'iscalelea\SampleExtensionPub\ExtensionStyleAsset',
         'yii\web\YiiAsset',
     ];
 }

@@ -10,7 +10,7 @@
  * @since 2.0
  */
 jQuery(function($) {
-    $.fn.authchoice = function(options) {
+    $.fn.extension = function(options) {
         options = $.extend({
             triggerSelector: 'a.auth-link',
             popup: {
